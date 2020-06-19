@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class = "main-wrapper">
+            <h2>Please Provide Your Information</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ullam cum deleniti inventore recusandae velit.</p>
+
+            <form>
+                <div class = "half-w">
+                    <input type = "text" placeholder="Name">
+                    <input type = "email" placeholder="Email">
+                </div>
+
+                <div class = "full-w">
+                    <input type = "text" placeholder="Full Address">
+                </div>
+
+                <div class = "half-w">
+                    <select name = "role">
+                        <option value = "" selected disabled hidden>Select</option>
+
+                        <option value = "front-end">Frontend Developer</option>
+                        <option value = "backend">Backend Developer</option>
+                        <option value = "fullstack">Fullstack Developer</option>
+                    </select>
+
+                    <input type = "number" placeholder="Experience" min = "1" max = "50">
+                </div>
+
+                <div class = "full-w skills">
+                    <h3>Skills: </h3>
+
+                    <div class = "skill-container">
+                        <div class = "skill">
+                            <input type = "checkbox" name = "skill1" value = "version-control">
+                            <label for = "skill1">Version Control</label>
+                        </div>
+
+                        <div class = "skill">
+                            <input type = "checkbox" name = "skill2" value = "command-line">
+                            <label for = "skill1">Command Line</label>
+                        </div>
+
+                        <div class = "skill">
+                            <input type = "checkbox" name = "skill3" value = "build-auto">
+                            <label for = "skill1">Building & Automation</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "one-third-w">
+                    <input type = "text" placeholder="Age">
+                    <input type = "text" placeholder="Degree">
+                    <input type = "text" placeholder="City">
+                </div>
+
+                <input type = "submit" value = "Apply Now">
+            </form>
+        </div>
+        
+    </body>
+</html>
